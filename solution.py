@@ -1,28 +1,3 @@
-"""import math
-from functools import reduce
-def std(values: str) -> float:
-    pass
-def standard_deviation(numbers):
-    n = len(numbers)
-    mean = sum(numbers) / n
-    variance = sum((x - mean) ** 2 for x in numbers) / n
-    return round(math.sqrt(variance), 1)
-
-numbers = list(map(int, '10 40 30 50 20'.split()))
-print(standard_deviation(numbers))
-
-import math
-from functools import reduce
-
-def standard_deviation(numbers):
-    n = len(numbers)
-    mean = sum(numbers) / n
-    variance = sum((x - mean) ** 2 for x in numbers) / n
-    return round(math.sqrt(variance), 1)
-
-numbers = list(map(int, '10 40 30 50 20'.split()))
-print(standard_deviation(numbers))"""
-
 import math
 from functools import reduce
 def std(values: str) -> float:
